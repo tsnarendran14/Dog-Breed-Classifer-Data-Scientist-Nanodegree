@@ -5,6 +5,20 @@
 The objective of this project is, if a dog is detected in the image, it will provide an estimate of the dog's breed. If a human is detected, it will provide an estimate of the dog breed that is most resembling. 
 We will be using Convolution Neural Network (CNN) since it works very well for images.
 
+## Summary of the project:
+
+We will use deep learning algorithm called Convolution neural network to classify dog breeds. We will use open cv2 to detect humans and dogs from the images. Then we will build our own CNN architecture. The results from this CNN model is not convincing as it gives very bad accuracy. So we will use transfer learning concept. That is, we will use pre-trained model. In our case, we will use ResNet50 model. The accuracy which we get here is around 80 percent. In order to test our application, we will also use a sample of six images to test real world scenario.
+
+## Interesting and difficult things in the project:
+
+It was amazing to see how CNN algorithm works so well in images. There are 133 categories and CNN does so well in predicting those categories. The most difficult part is building my own CNN algorithm. Neural network has so many parameters that it is difficult to tune them. But thanks to udacity’s sample model, which helped me to build my model with greater than one percent accuracy.
+
+## Metrics Used:
+
+For calculating the performance of the model, we will use accuracy. Accuracy improvement is the requirement of the project and also it gives a very clear information about how well we are able to classify dog breeds. For example, for 100 images, if we are able to classify 60 images correctly, then the accuracy is 60%.
+
+Loss Function: The loss function of neural network is categorical crossentropy. It is the most popular loss function used in neural network for multi class classification which uses softmax activation function. The loss function is differentiable. 
+
 ## Contents
 
 Step 0: Import Datasets
