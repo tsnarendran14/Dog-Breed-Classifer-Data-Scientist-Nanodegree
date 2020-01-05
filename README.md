@@ -8,12 +8,19 @@ We will be using Convolution Neural Network (CNN) since it works very well for i
 ## Contents
 
 Step 0: Import Datasets
+
 Step 1: Detect Humans
+
 Step 2: Detect Dogs
+
 Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
+
 Step 4: Use a CNN to Classify Dog Breeds (using Transfer Learning)
+
 Step 5: Create a CNN to Classify Dog Breeds (using Transfer Learning)
+
 Step 6: Write your Algorithm
+
 Step 7: Test Your Algorithm
 
 ## Blog Link - For detailed analysis and explanation of the model
@@ -107,3 +114,7 @@ __NOTE:__ While some code has already been implemented to get you started, you w
 
 ## Final Outcome
 Used Resnet50 model. The accuracy of test dataset is 83 percent, which beats the set benchmark at 60 percent
+
+## Copyrights:
+This is a open source project.
+For usage guidelines, please refer to https://www.udacity.com/legal
